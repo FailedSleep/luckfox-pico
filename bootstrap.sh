@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install base
-apk add openrc dropbear mtd-utils-ubi python3 unudhcpd agetty --no-cache --update-cache
+apk add openrc dropbear mtd-utils-ubi python3 unudhcpd agetty tmux --no-cache --update-cache
 rc-update add devfs boot
 rc-update add procfs boot
 rc-update add sysfs boot
