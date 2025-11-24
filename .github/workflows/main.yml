@@ -5,6 +5,7 @@ on:
     branches:
       - "main" # For upstreaming
       - "senpai" # My own development
+      - "FailedSleep-patch-1" # mine ish
 jobs:
   build-rootfs:
     runs-on: ubuntu-latest
